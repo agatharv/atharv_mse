@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMON Travels</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>SIMON Travels</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <!-- <section id = "mid"> -->
+        <a href="#destinations">Destinations</a>
+        <a href="#about">About</a>
+        <!-- </section> -->
+        <a href="#booking">Book a trip</a>
+    </nav>
+
+    <h2 id="home">Find your next adventure</h2>
+    <p>Discover wonderful places and make memories that last.</p>
+    <img id="hero-image" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80" alt="A lake surrounded by mountains">
+
+    <h2 id="destinations">Popular Destinations</h2>
+
+    <div class="destinations">
+        <div class="destination">
+            <h3>Bali, Indonesia</h3>
+            <img class="destination-image" src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80" alt="Bali beach">
+            <p>Relax on beautiful beaches and explore the island.</p>
+        </div>
+
+        <div class="destination">
+            <h3>Rome, Italy</h3>
+            <img class="destination-image" src="https://images.unsplash.com/photo-1525874684015-58379d421a52?auto=format&fit=crop&w=800&q=80" alt="A street in Rome">
+            <p>See famous sights and enjoy delicious Italian food.</p>
+        </div>
+
+        <div class="destination">
+            <h3>Swiss Alps</h3>
+            <img class="destination-image" src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=800&q=80" alt="Mountains in the Swiss Alps">
+            <p>Enjoy fresh air and incredible mountain views.</p>
+        </div>
+
+        <div class="destination">
+            <h3>Kyoto, Japan</h3>
+            <img class="destination-image" src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80" alt="Traditional buildings in Kyoto">
+            <p>Visit peaceful temples and beautiful gardens.</p>
+        </div>
+    </div>
+
+    <h2 id="about">About SIMON Travels</h2>
+    <p>We help you find a trip that you will remember. Choose a destination and start dreaming about your next holiday.</p>
+
+    <h2 id="booking">Plan Your Trip</h2>
+    <p>Fill in the form to get started.</p>
+    <form id="booking-form">
+        <label for="name">Your name:</label>
+        <input id="name" type="text" required>
+
+        <label for="destination">Choose a destination:</label>
+        <select id="destination" required>
+            <option value="">Select a place</option>
+            <option value="Bali, Indonesia">Bali, Indonesia</option>
+            <option value="Rome, Italy">Rome, Italy</option>
+            <option value="Swiss Alps">Swiss Alps</option>
+            <option value="Kyoto, Japan">Kyoto, Japan</option>
+        </select>
+
+        <button type="submit">Send my request</button>
+    </form>
+
+    <p>SIMON Travels - Find your next adventure.</p>
+</body>
+</html>
